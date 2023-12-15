@@ -8,20 +8,15 @@
     <link href="logo1.png" rel="icon">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Custom styles go here */
-        
-    </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <a class="navbar-brand" href="#">
         <img src="logo1.png" alt="Logo" height="100" class="d-inline-block align-top">
     </div>
@@ -65,7 +60,7 @@
 
 <!-- About Me -->
 <section id="about">
-  <div class="container my-5">
+  <div class="container py-5">
     <div class="row min-vh-100 align-items-center">
       <div class="col-12">
         
@@ -76,7 +71,7 @@
           <div class="col-md-4">
             <img src="profile.jpg" alt="My Profile Picture" class="img-fluid rounded-circle mb-2">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-7">
             <p>
               Hi there! I'm Jeneva Rose Ybanez, living in Dasmariñas City, Cavite. I'm a freshman at Kolehiyo ng Lungsod ng Dasmariñas, taking up Bachelor of Science in Information Systems. I have this big love for creating floor plans and plates—they're like my creative playground. When free moments pop up, you'll find me hooked on crochet, turning yarn into cozy treasures that I often sell. On top of that, I'm also an academic commissioner, working on making college life awesome for everyone. It's a mix of tech, creativity, and a dash of community spirit in everything I do!
             </p>
@@ -90,21 +85,19 @@
 
 <!-- Skills Section -->
 <section id="skills" class="bg-light">
-  <div class="container my-5">
-    <div class="row min-vh-100 align-items-center justify-content-center">
+  <div class="container">
+    <div class="row min-vh-100 align-items-center text-justify">
       <div class="col-12">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center mb-4">Skills</h2>
+            <h2 class="text-center mb-1">Skills</h2>
           </div>
-          
-          <!-- Add your skills content here -->
           <div class="col-md-6">
             <h3>Technical Skills</h3>
             <ul>
               <li>Web Development</li>
               <li>HTML/CSS</li>
-              <!-- Add more technical skills as needed -->
+
             </ul>
           </div>
           <div class="col-md-6">
@@ -113,8 +106,8 @@
               <li>Communication</li>
               <li>Problem Solving</li>
               <li>Team Collaboration</li>
-              <!-- Add more soft skills as needed -->
             </ul>
+          </div>
           </div>
         </div>
       </div>
@@ -125,12 +118,10 @@
 
 <!-- Carousel -->
 <section id="works">
-  <div class="container my-5">
+  <div class="container py-5">
     <div class="row min-vh-100 align-items-center">
       <div class="col-12">
-        
         <h2 class="text-center mb-4">Works</h2>
-        
         <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -182,9 +173,9 @@
               <h2 class="mb-4 text-center">Contact Me</h2>
             </div>
             <div class="col-12 text-center">
-              <p>Feel free to reach out to me via email at <a href="mailto:@email.com">ybanez.jenevarose.kld@email.com</a>.
+              <p>Feel free to reach out to me via email at<br> <a href="mailto:@email.com">ybanez.jenevarose.kld@email.com</a>.
               </p>
-              <p>+639 842 8735</p>
+              <i class="bi bi-telephone-fill">+639 842 8735</i>
             </div>
           </div>
         </div>
