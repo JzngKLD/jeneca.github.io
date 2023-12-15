@@ -1,14 +1,24 @@
-body {
-    padding-top: 150px;
+nav {
+    height: 90%;
 }
 
-body, html {
+.nav-item {
+    padding-left: 20px;
+}
+
+body, html {            
     width: 100%;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 * {
     font-size: 20px;
+}
+
+section {
+    min-height: max-content;
+    height: 100vh;
+    padding: 50px;
 }
 
 .container {
@@ -16,10 +26,43 @@ body, html {
     width: 50;
   }
 
+ul, li {
+    list-style: none;
+}
+
+#home {
+    margin-top: -50px;
+}
+
+#about {
+    margin-bottom: 0px;
+}
+
+#works {
+    height: max-content;
+    padding-top: 90px;
+}
+
 .carousel-item img {
     width: 100%;
     height: auto;
 }
 
+.carousel-item {
+    border: 5px solid #000;
+}
 
+@media (min-width:992px) {
+    nav {
+        height: 100px;
+    }
+
+    #skills {
+        margin-top: 0px;
+    }
+}
+
+#skills {
+    margin-top: 400px;
+}
 
